@@ -1,0 +1,3 @@
+-- Optional demo seed. Replace owner_id with an existing profile id after creating a Supabase auth user.
+-- insert into public.pets (owner_id, name, species, breed, gender, birthday, allergy_note, public_note)
+-- values ('00000000-0000-0000-0000-000000000000', 'Mochi', 'Dog', 'Poodle Mix', 'Female', '2021-04-12', 'No known allergy', 'Friendly but nervous around loud sounds.');
