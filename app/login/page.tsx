@@ -1,7 +1,1 @@
-export default function LoginPage() {
-  return (
-    <main className="min-h-screen bg-[#fff8f1] px-4 py-8 text-slate-900">
-      <section className="mx-auto max-w-md rounded-3xl bg-white p-6 shadow-sm ring-1 ring-orange-100">
-        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-orange-500">PawID Login</p>
-        <h1 className="mt-3 text-3xl font-bold">Login with ID Card No</h1>
-        <p className="mt-2 text-sm text-slate-600">Use your card number and default password abc123. You
+export default function LoginPage(){return <main><h1>PawID Login</h1><p>ID Card No + password. Default password: abc123.</p><form><input placeholder="ID Card No"/><input placeholder="Password" type="password"/><button type="button">Login</button></form></main>}
