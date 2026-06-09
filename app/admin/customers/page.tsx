@@ -1,0 +1,1 @@
+export default function AdminCustomersPage(){return <main><h1>Create Customer</h1><p>Admin creates a customer profile. Customer logs in with ID Card No and default password abc123.</p><form><input placeholder="ID Card No"/><input placeholder="Full name"/><input placeholder="Phone"/><input placeholder="Email"/><button type="button">Create customer</button></form></main>}
