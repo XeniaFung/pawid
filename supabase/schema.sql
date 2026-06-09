@@ -8,6 +8,10 @@ create table if not exists public.customers (
   full_name text,
   phone text,
   email text,
-  status text not null default 'active' check (status in ('active','inactive','blocked')),
-  created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now()
+  status text not null default 'active',
+  created_at timestamptz not null default now()
+);
+
+create table if not exists public.pets (
+  id uuid primary key default gen_random_uuid(),
+  customer_id uuid not null references public.customers(id) on delete cascade
