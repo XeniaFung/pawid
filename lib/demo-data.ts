@@ -1,32 +1,18 @@
-export const demoPet = {
-  name: 'Mochi',
-  species: 'Dog',
-  breed: 'Poodle Mix',
-  gender: 'Female',
-  birthday: '2021-04-12',
-  photoUrl: '',
-  allergyNote: 'No known allergy',
-  publicNote: 'Friendly but nervous around loud sounds.',
-  ownerName: 'Pet Owner',
-  ownerPhone: '+60123456789',
-  records: [
-    {
-      id: 'rec_1',
-      type: 'Vaccination',
-      title: 'Annual vaccine',
-      date: '2026-03-20',
-      nextDueDate: '2027-03-20',
-      vetName: 'Happy Paws Vet',
-      notes: 'Completed annual vaccination.'
-    },
-    {
-      id: 'rec_2',
-      type: 'Deworm',
-      title: 'Deworm tablet',
-      date: '2026-05-02',
-      nextDueDate: '2026-08-02',
-      vetName: 'Happy Paws Vet',
-      notes: 'Routine deworm record.'
-    }
-  ]
+export const demoCustomer = {
+  idCardNo: '250914-01-3522',
+  defaultPassword: 'abc123',
+  fullName: 'Curly Owner',
+  phone: '+60123456789',
+  email: 'customer@example.com'
 };
+
+export const demoPet = {
+  name: 'Curly 卷卷',
+  species: 'Cat',
+  breed: 'Devon Rex',
+  gender: 'Female',
+  birthday: '2025-09-14',
+  address: '16, Jalan SP 1/16, 42600 Jenjarom, Selangor, Malaysia',
+  status: 'Energetic',
+  photoUrl: '',
+  allergyNote: 'No
