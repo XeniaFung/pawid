@@ -1,8 +1,12 @@
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-[#fff8f1] px-6 py-10 text-slate-900">
-      <section className="mx-auto max-w-5xl space-y-6">
-        <div className="rounded-3xl bg-white p-8 shadow-sm ring-1 ring-pink-100">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-pink-500">PawID / Meowkad</p>
-          <h1 className="max-w-3xl text-4xl font-bold leading-tight md:text-6xl">Pet ID card login system.</h1>
-          <p className="mt
+    <main>
+      <h1>PawID / Meowkad</h1>
+      <p>Pet ID card login system.</p>
+      <p>Customers log in with ID Card No and password.</p>
+      <a href="/login">Customer Login</a>
+      <br />
+      <a href="/admin/customers">Admin Customers</a>
+    </main>
+  );
+}
